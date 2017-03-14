@@ -1,0 +1,11 @@
+project(hw4_tests)
+
+add_subdirectory(lib/gtest-1.7.0)
+add_subdirectory(basic_tests)
+add_subdirectory(constructor_tests_1)
+add_subdirectory(push_to_stack_tests_2)
+add_subdirectory(pop_from_stack_tests_3)
+add_subdirectory(peek_tests_4)
+add_subdirectory(empty_tests_5)
+add_subdirectory(copy_constructor_test_6)
+add_subdirectory(get_pointer_to_tests_7)
