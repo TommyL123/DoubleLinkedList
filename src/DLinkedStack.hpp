@@ -90,11 +90,20 @@ Node<T> *DLinkedStack<T>::getPointerTo(const T &target) const
     }
     Node<T> *blah = topPtr;
 
-    while((blah->getItem() != blah) && (blah != nullptr))
+    /*do
+         {
+             blah->getPrev();
+            if (blah->getItem() == target)
+                return blah;
+
+         } while(blah->getPrev()!=nullptr);
+         */
+    while((blah->getItem() != target) && (blah != nullptr))
     {
         blah = blah->getPrev();
     }
     return blah;
+    // Node<T> *blah = new Node()
 
 
 
