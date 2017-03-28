@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hw4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\hw4_tests\;CMake Files\hw4_tests\lib\;CMake Files\hw4_tests\lib\gtest-1.7.0\;CMake Files\hw4_tests\lib\gtest-1.7.0\cmake\;CMake Files\hw4_tests\basic_tests\;CMake Files\hw4_tests\constructor_tests_1\;CMake Files\hw4_tests\push_to_stack_tests_2\;CMake Files\hw4_tests\pop_from_stack_tests_3\;CMake Files\hw4_tests\peek_tests_4\;CMake Files\hw4_tests\empty_tests_5\;CMake Files\hw4_tests\copy_constructor_test_6\;CMake Files\hw4_tests\get_pointer_to_tests_7\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw4_run">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 hw4_run"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw4_run/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 hw4_run/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw4_library">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/src/libhw4_library.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 hw4_library"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw4_library/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/src/libhw4_library.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 hw4_library/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runBasicHW4Tests-0">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/basic_tests/runBasicHW4Tests-0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/basic_tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/basic_tests/Makefile&quot;  VERBOSE=1 runBasicHW4Tests-0"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/basic_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/basic_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/basic_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runBasicHW4Tests-0/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/basic_tests/runBasicHW4Tests-0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/basic_tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/basic_tests/Makefile&quot;  VERBOSE=1 runBasicHW4Tests-0/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/basic_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/basic_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/basic_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW4ConstructorTest-1">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/constructor_tests_1/runHW4ConstructorTest-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/constructor_tests_1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/constructor_tests_1/Makefile&quot;  VERBOSE=1 runHW4ConstructorTest-1"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/constructor_tests_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/constructor_tests_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/constructor_tests_1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW4ConstructorTest-1/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/constructor_tests_1/runHW4ConstructorTest-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/constructor_tests_1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/constructor_tests_1/Makefile&quot;  VERBOSE=1 runHW4ConstructorTest-1/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/constructor_tests_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/constructor_tests_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/constructor_tests_1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW4PushToStackTests-2">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/push_to_stack_tests_2/runHW4PushToStackTests-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/push_to_stack_tests_2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/push_to_stack_tests_2/Makefile&quot;  VERBOSE=1 runHW4PushToStackTests-2"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/push_to_stack_tests_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/push_to_stack_tests_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/push_to_stack_tests_2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW4PushToStackTests-2/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/push_to_stack_tests_2/runHW4PushToStackTests-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/push_to_stack_tests_2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/push_to_stack_tests_2/Makefile&quot;  VERBOSE=1 runHW4PushToStackTests-2/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/push_to_stack_tests_2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/push_to_stack_tests_2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/push_to_stack_tests_2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW4PopFromStackTests-3">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/pop_from_stack_tests_3/runHW4PopFromStackTests-3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/pop_from_stack_tests_3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/pop_from_stack_tests_3/Makefile&quot;  VERBOSE=1 runHW4PopFromStackTests-3"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/pop_from_stack_tests_3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/pop_from_stack_tests_3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/pop_from_stack_tests_3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW4PopFromStackTests-3/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/pop_from_stack_tests_3/runHW4PopFromStackTests-3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/pop_from_stack_tests_3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/pop_from_stack_tests_3/Makefile&quot;  VERBOSE=1 runHW4PopFromStackTests-3/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/pop_from_stack_tests_3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/pop_from_stack_tests_3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/pop_from_stack_tests_3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW4PeekTests-4">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/peek_tests_4/runHW4PeekTests-4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/peek_tests_4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/peek_tests_4/Makefile&quot;  VERBOSE=1 runHW4PeekTests-4"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/peek_tests_4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/peek_tests_4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/peek_tests_4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW4PeekTests-4/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/peek_tests_4/runHW4PeekTests-4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/peek_tests_4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/peek_tests_4/Makefile&quot;  VERBOSE=1 runHW4PeekTests-4/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/peek_tests_4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/peek_tests_4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/peek_tests_4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW4IsEmptyTest-5">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/empty_tests_5/runHW4IsEmptyTest-5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/empty_tests_5"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/empty_tests_5/Makefile&quot;  VERBOSE=1 runHW4IsEmptyTest-5"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/empty_tests_5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/empty_tests_5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/empty_tests_5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW4IsEmptyTest-5/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/empty_tests_5/runHW4IsEmptyTest-5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/empty_tests_5"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/empty_tests_5/Makefile&quot;  VERBOSE=1 runHW4IsEmptyTest-5/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/empty_tests_5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/empty_tests_5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/empty_tests_5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW4CopyConstructorTest-6">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/copy_constructor_test_6/runHW4CopyConstructorTest-6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/copy_constructor_test_6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/copy_constructor_test_6/Makefile&quot;  VERBOSE=1 runHW4CopyConstructorTest-6"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/copy_constructor_test_6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/copy_constructor_test_6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/copy_constructor_test_6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW4CopyConstructorTest-6/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/copy_constructor_test_6/runHW4CopyConstructorTest-6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/copy_constructor_test_6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/copy_constructor_test_6/Makefile&quot;  VERBOSE=1 runHW4CopyConstructorTest-6/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/copy_constructor_test_6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/copy_constructor_test_6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/copy_constructor_test_6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW4GetPointerToTests-7">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/get_pointer_to_tests_7/runHW4GetPointerToTests-7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/get_pointer_to_tests_7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/get_pointer_to_tests_7/Makefile&quot;  VERBOSE=1 runHW4GetPointerToTests-7"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/get_pointer_to_tests_7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/get_pointer_to_tests_7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/get_pointer_to_tests_7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW4GetPointerToTests-7/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/get_pointer_to_tests_7/runHW4GetPointerToTests-7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/get_pointer_to_tests_7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/get_pointer_to_tests_7/Makefile&quot;  VERBOSE=1 runHW4GetPointerToTests-7/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/get_pointer_to_tests_7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/get_pointer_to_tests_7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw4/cmake-build-debug/hw4_tests/get_pointer_to_tests_7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/basic_tests/basic_check.cpp">
+			<Option target="runBasicHW4Tests-0"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/constructor_tests_1/constructor_tests.cpp">
+			<Option target="runHW4ConstructorTest-1"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/copy_constructor_test_6/copy_constructor_tests.cpp">
+			<Option target="runHW4CopyConstructorTest-6"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/empty_tests_5/is_empty_tests.cpp">
+			<Option target="runHW4IsEmptyTest-5"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/get_pointer_to_tests_7/get_pointer_to_tests.cpp">
+			<Option target="runHW4GetPointerToTests-7"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/peek_tests_4/peek_tests.cpp">
+			<Option target="runHW4PeekTests-4"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/pop_from_stack_tests_3/pop_tests.cpp">
+			<Option target="runHW4PopFromStackTests-3"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/push_to_stack_tests_2/pust_tests.cpp">
+			<Option target="runHW4PushToStackTests-2"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/main.cpp">
+			<Option target="hw4_run"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/src/DLinkedStack.hpp">
+			<Option target="hw4_library"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/src/Node.hpp">
+			<Option target="hw4_library"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/src/StackInterface.hpp">
+			<Option target="hw4_library"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/src/temp.cpp">
+			<Option target="hw4_library"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\lib\gtest-1.7.0\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\lib\gtest-1.7.0\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\lib\gtest-1.7.0\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\hw4_tests\lib\gtest-1.7.0\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\hw4_tests\lib\gtest-1.7.0\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\hw4_tests\lib\gtest-1.7.0\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/basic_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\basic_tests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/basic_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\basic_tests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/constructor_tests_1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\constructor_tests_1\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/constructor_tests_1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\constructor_tests_1\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/push_to_stack_tests_2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\push_to_stack_tests_2\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/push_to_stack_tests_2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\push_to_stack_tests_2\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/pop_from_stack_tests_3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\pop_from_stack_tests_3\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/pop_from_stack_tests_3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\pop_from_stack_tests_3\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/peek_tests_4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\peek_tests_4\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/peek_tests_4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\peek_tests_4\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/empty_tests_5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\empty_tests_5\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/empty_tests_5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\empty_tests_5\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/copy_constructor_test_6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\copy_constructor_test_6\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/copy_constructor_test_6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\copy_constructor_test_6\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/get_pointer_to_tests_7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\get_pointer_to_tests_7\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/hw4_tests/get_pointer_to_tests_7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw4_tests\get_pointer_to_tests_7\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw4/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

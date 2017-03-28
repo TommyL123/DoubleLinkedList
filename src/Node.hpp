@@ -33,9 +33,7 @@ template<class T>
 Node<T>::Node(const T &anItem) : data(anItem), prev(nullptr), next(nullptr) { }
 
 template<class T>
-Node<T>::Node(const T &anItem, Node<T> *prevNodePtr, Node<T> *nextNodePtr) : data(anItem),
-                                                                                                         prev(prevNodePtr),
-                                                                                                         next(nextNodePtr) { }
+Node<T>::Node(const T &anItem, Node<T> *prevNodePtr, Node<T> *nextNodePtr) : data(anItem), prev(prevNodePtr), next(nextNodePtr) { }
 
 template<class T>
 void Node<T>::setItem(const T &anItem) { data = anItem; }

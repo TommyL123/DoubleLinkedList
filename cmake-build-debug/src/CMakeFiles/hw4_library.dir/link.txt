@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libhw4_library.a  CMakeFiles/hw4_library.dir/temp.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libhw4_library.a
